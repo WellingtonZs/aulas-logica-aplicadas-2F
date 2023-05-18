@@ -6,5 +6,13 @@ public class Main {
         //instanciar objetos
         adao = new Pessoa();
         Pessoa eva = new Pessoa();
+        //Definição do formato
+        adao.nome = "Adão";
+        adao.sobrenome = "Silva";
+        eva.nome = "Eva";
+        eva.sobrenome = "Silva";
+        // Acionar comportamento
+        adao.falar();
+        eva.falar();
     }
 }
